@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Pwd:</strong>
+  <%= @room.pwd %>
+</p>
+
+<p>
+  <strong>Isprotected:</strong>
+  <%= @room.isProtected %>
+</p>
+
+<%= link_to 'Edit', edit_room_path(@room) %> |
+<%= link_to 'Back', rooms_path %>
